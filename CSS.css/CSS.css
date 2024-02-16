@@ -8,6 +8,30 @@ text-align: center;
 padding-top: 20px;
 padding-bottom: 20px;
 padding-left: 50px;
-padding-right: 50px;
+padding-right: 50px; }
 
-}
+article {padding-left: 50px;
+padding-right: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+width: 80%;
+margin: 0 auto;
+margin-top : 20px;}
+
+.espacial {background-color: aliceblue; text-align: justify;}
+.lista{ background-color:aqua;}
+.horario{background-color: beige;}
+article b{color:darkcyan;}
+h2{color:blue;}
+
+
+.horario{color: gold;}
+.recreo{background-color: greenyellow; color: white}
+.física{background-color: lightslategrey;}
+.dibujo {background-color: aqua;}
+.programación{background-color: chocolate;}
+.matemáticas{background-color: darkred;}
+.historia{background-color: blue;}
+.filosofía{background-color: darkgreen;}
+.lenguayliteratura{background-color: crimson;}
+.inglés{background-color: fuchsia;}
