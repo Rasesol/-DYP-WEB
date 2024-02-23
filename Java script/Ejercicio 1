@@ -11,10 +11,10 @@
 
 	<script>
 		// Define the variables
-		const name = "John Doe";
-		const group = "A1";
-		const course = "Computer Science";
+		const nombre = "Rafael Sevilla Sola";
+		const grupo = "2ºBC";
+		const curso = "Bachiller tecnológico";
 
 		// Set the values of the HTML elements
-		document.getElementById("name").textContent = name;
-		document.getElementById("group").textContent = group;
+		document.getElementById("name").textContent = nombre;
+		document.getElementById("group").textContent = grupo;
