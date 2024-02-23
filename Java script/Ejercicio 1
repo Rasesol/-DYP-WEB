@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Info</title>
+</head>
+<body>
+	<h1>My Information</h1>
+	<p>Name: <span id="name"></span></p>
+	<p>Group: <span id="group"></span></p>
+	<p>Course: <span id="course"></span></p>
+
+	<script>
+		// Define the variables
+		const name = "John Doe";
+		const group = "A1";
+		const course = "Computer Science";
+
+		// Set the values of the HTML elements
+		document.getElementById("name").textContent = name;
+		document.getElementById("group").textContent = group;
