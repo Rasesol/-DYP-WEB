@@ -4,10 +4,10 @@
 	<title>My Info</title>
 </head>
 <body>
-	<h1>My Information</h1>
-	<p>Name: <span id="name"></span></p>
-	<p>Group: <span id="group"></span></p>
-	<p>Course: <span id="course"></span></p>
+	<h1>Mi información</h1>
+	<p>Nombre: <span id="nombre"></span></p>
+	<p>Grupo: <span id="grupo"></span></p>
+	<p>Curso: <span id="curso"></span></p>
 
 	<script>
 		// Define the variables
@@ -16,5 +16,5 @@
 		const curso = "Bachiller tecnológico";
 
 		// Set the values of the HTML elements
-		document.getElementById("name").textContent = nombre;
-		document.getElementById("group").textContent = grupo;
+		document.getElementById("nombre").textContent = nombre;
+		document.getElementById("grupo").textContent = grupo;
