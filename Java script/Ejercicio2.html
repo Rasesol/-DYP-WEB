@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ventana emergente y confirmación</title>
+</head>
+<body>
+  <button id="my-button">Mostrar ventana emergente</button>
 
+  <script>
+    // Función que muestra una ventana emergente con el mensaje "¡Hola Mundo!"
+    function mostrarVentana() {
+      alert("¡Hola Mundo!");
+
+      // Después de cerrar la ventana emergente, mostrar la ventana de confirmación
+      confirmacion();
+    }
+
+    // Función que muestra una ventana de confirmación con el mensaje "¿Te ha gustado la lección?"
+    function confirmacion() {
+      confirm("¿Te ha gustado la lección?");
+    }
+
+    // Asignar la función mostrarVentana al evento click del botón
+    document.getElementById("my-button").addEventListener("click", mostrarVentana);
+  </script>
+</body>
+</html>
