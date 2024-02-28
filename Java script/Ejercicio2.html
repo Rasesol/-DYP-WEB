@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ventana emergente y confirmación</title>
+	<title>Pop-up Windows Example</title>
 </head>
 <body>
-  <button id="my-button">Mostrar ventana emergente</button>
-
-  <script>
-    // Función que muestra una ventana emergente con el mensaje "¡Hola Mundo!"
-    function mostrarVentana() {
-      alert("¡Hola Mundo!");
-
-      // Después de cerrar la ventana emergente, mostrar la ventana de confirmación
-      confirmacion();
-    }
-
-    // Función que muestra una ventana de confirmación con el mensaje "¿Te ha gustado la lección?"
-    function confirmacion() {
-      confirm("¿Te ha gustado la lección?");
-    }
-
-    // Asignar la función mostrarVentana al evento click del botón
-    document.getElementById("my-button").addEventListener("click", mostrarVentana);
-  </script>
+	<button onclick="mostrarVentanas()">Show Pop-ups</button>
 </body>
+
+<script>
+// Define the function to display the pop-up windows
+function mostrarVentanas() {
+  // Display the first pop-up window with the message "¡ Hola Mundo !"
+  alert("¡ Hola Mundo !");
+
+  // Display the second pop-up window with the confirmation message "¿Te ha gustado la lección?"
+  if (confirm("¿Te ha gustado la lección?")) {
+    // If the user clicks "OK", display a message indicating so
+    alert("Great! I'm glad you liked it.");
+  } else {
+    // If the user clicks "Cancel", display a message indicating so
+    alert("No problem. Maybe next time!");
+  }
+}
+</script>
+
 </html>
